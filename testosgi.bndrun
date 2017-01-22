@@ -1,0 +1,10 @@
+-runfw: org.eclipse.osgi
+-runee: JavaSE-1.7
+
+-runbundles: osgi.enroute.junit.wrapper,osgi.enroute.hamcrest.wrapper,\
+com.google.guava,org.apache.commons.lang3,slf4j.api,slf4j.simple,\
+juri
+
+-runproperties:
+
+-runtrace: true
